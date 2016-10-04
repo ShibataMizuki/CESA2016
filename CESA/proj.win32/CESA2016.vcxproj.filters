@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\ADX2Rapper\ADX2Manager.cpp" />
+    <ClCompile Include="Assets\ADX2Rapper\ADX2Player.cpp" />
+    <ClCompile Include="Assets\SpriteStore\SpriteStore.cpp" />
+    <ClCompile Include="Assets\Utils\Utils.cpp" />
+    <ClCompile Include="Assets\Metronome\Metronome.cpp" />
+    <ClCompile Include="Assets\GameObject\PlayerPlane\PlayerPlane.cpp" />
+    <ClCompile Include="Assets\GameObject\GameObject.cpp" />
+    <ClCompile Include="Assets\GameObject\EnemyPlane\EnemyPlane.cpp" />
+    <ClCompile Include="Assets\GameObjectManager\GameObjectManager.cpp" />
+    <ClCompile Include="Assets\GameObject\PlayerBullet\PlayerBullet.cpp" />
+    <ClCompile Include="Assets\MoveStrategy\MoveStrategy.cpp" />
+    <ClCompile Include="Assets\MoveStrategy\MoveHoming\MoveHoming.cpp" />
+    <ClCompile Include="Assets\MoveStrategy\MoveWithKeyboard\MoveWithKeyboard.cpp" />
+    <ClCompile Include="Assets\MoveStrategy\MoveLinear\MoveLinear.cpp" />
+    <ClCompile Include="Assets\EnemyAI\EnemyAI.cpp" />
+    <ClCompile Include="Assets\EnemyAI\EnemyAIPtn1\EnemyAIPtn1.cpp" />
+    <ClCompile Include="Assets\GameObject\EnemyBullet\EnemyBullet.cpp" />
+    <ClCompile Include="Assets\ScoreManager\ScoreManager.cpp" />
+    <ClCompile Include="Assets\Scene\TitleScene\TitleScene.cpp" />
+    <ClCompile Include="Assets\Scene\PlayScene\PlayScene.cpp" />
+    <ClCompile Include="Assets\UINode\UINode.cpp" />
+    <ClCompile Include="Assets\EnemyAI\EnemyAIFactory.cpp" />
+    <ClCompile Include="Assets\SoundManager\SoundManager.cpp" />
+    <ClCompile Include="Assets\DebugNode\DebugNode.cpp" />
+    <ClCompile Include="Assets\EnemyAction\EnemyActionMove\EnemyActionMove.cpp" />
+    <ClCompile Include="Assets\EnemyAction\EnemyAction.cpp" />
+    <ClCompile Include="Assets\EnemyAction\EnemyActionShot\EnemyActionSnipeShot.cpp" />
+    <ClCompile Include="Assets\MoveStrategy\MoveStrategyFactory.cpp" />
+    <ClCompile Include="Assets\EnemyAction\EnemyActionSplashShot\EnemyActionSplashShot.cpp" />
+    <ClCompile Include="Assets\EnemyAction\EnemyActionMoveTo\EnemyActionMoveTo.cpp" />
+    <ClCompile Include="Assets\EnemyAction\EnemyActionMoveBy\EnemyActionMoveBy.cpp" />
+    <ClCompile Include="Assets\EnemyAction\EnemyActionFactory.cpp" />
+    <ClCompile Include="Assets\GameObject\ScoreItem\ScoreItem.cpp" />
+    <ClCompile Include="Assets\VirtualPad\ViritualPAd.cpp" />
+    <ClCompile Include="Assets\PopupLabel\PopupLabel.cpp" />
+    <ClCompile Include="Assets\GameObject\GameObjectFactory.cpp" />
+    <ClCompile Include="Assets\Scene\ResultScene\ResultScene.cpp" />
+    <ClCompile Include="Assets\CollisionSystem\CSBody\CSBody.cpp" />
+    <ClCompile Include="Assets\CollisionSystem\CSHitCallback\CSHitCallback.cpp" />
+    <ClCompile Include="Assets\CollisionSystem\CSShape\CSCircle\CSCircle.cpp" />
+    <ClCompile Include="Assets\CollisionSystem\CSShape\CSPolygon\CSPolygon.cpp" />
+    <ClCompile Include="Assets\CollisionSystem\CSShape\CollisionDetection.cpp" />
+    <ClCompile Include="Assets\CollisionSystem\CSShape\CSShape.cpp" />
+    <ClCompile Include="Assets\CollisionSystem\CSVec2\CSVec2.cpp" />
+    <ClCompile Include="Assets\CollisionSystem\CSWorld\CSWorld.cpp" />
+    <ClCompile Include="Assets\WorldManager\WorldManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\ADX2Rapper\ADX2Manager.h" />
+    <ClInclude Include="Assets\ADX2Rapper\ADX2Player.h" />
+    <ClInclude Include="Assets\SpriteStore\SpriteStore.h" />
+    <ClInclude Include="Assets\Effect\Effect.h" />
+    <ClInclude Include="Assets\Effect\EffectCircleSplash.h" />
+    <ClInclude Include="Assets\Utils\Utils.h" />
+    <ClInclude Include="Assets\Metronome\Metronome.h" />
+    <ClInclude Include="Assets\ADX2Rapper\ADX2Rapper.h" />
+    <ClInclude Include="Assets\GameObject\PlayerPlane\PlayerPlane.h" />
+    <ClInclude Include="Assets\GameObject\GameObject.h" />
+    <ClInclude Include="Assets\GameObject\EnemyPlane\EnemyPlane.h" />
+    <ClInclude Include="Assets\GameObjectManager\GameObjectManager.h" />
+    <ClInclude Include="Assets\GameObject\PlayerBullet\PlayerBullet.h" />
+    <ClInclude Include="Assets\MoveStrategy\MoveStrategy.h" />
+    <ClInclude Include="Assets\MoveStrategy\MoveHoming\MoveHoming.h" />
+    <ClInclude Include="Assets\MoveStrategy\MoveWithKeyboard\MoveWithKeyboard.h" />
+    <ClInclude Include="Assets\MoveStrategy\MoveLinear\MoveLinear.h" />
+    <ClInclude Include="Assets\EnemyAI\EnemyAI.h" />
+    <ClInclude Include="Assets\EnemyAI\EnemyAIPtn1\EnemyAIPtn1.h" />
+    <ClInclude Include="Assets\GameObject\EnemyBullet\EnemyBullet.h" />
+    <ClInclude Include="Assets\ScoreManager\ScoreManager.h" />
+    <ClInclude Include="Assets\Scene\TitleScene\TitleScene.h" />
+    <ClInclude Include="Assets\Scene\PlayScene\PlayScene.h" />
+    <ClInclude Include="Assets\UINode\UINode.h" />
+    <ClInclude Include="Assets\EnemyAI\EnemyAIFactory.h" />
+    <ClInclude Include="Assets\SoundManager\SoundManager.h" />
+    <ClInclude Include="Assets\DebugNode\DebugNode.h" />
+    <ClInclude Include="Assets\EnemyAction\EnemyAction.h" />
+    <ClInclude Include="Assets\EnemyAction\EnemyActionMove\EnemyActionMove.h" />
+    <ClInclude Include="Assets\EnemyAction\EnemyActionShot\EnemyActionSnipeShot.h" />
+    <ClInclude Include="Assets\MoveStrategy\MoveStrategyFactory.h" />
+    <ClInclude Include="Assets\EnemyAction\EnemyActionSplashShot\EnemyActionSplashShot.h" />
+    <ClInclude Include="Assets\EnemyAction\EnemyActionMoveTo\EnemyActionMoveTo.h" />
+    <ClInclude Include="Assets\EnemyAction\EnemyActionMoveBy\EnemyActionMoveBy.h" />
+    <ClInclude Include="Assets\EnemyAction\EnemyActionFactory.h" />
+    <ClInclude Include="Assets\inc\GameObjects.h" />
+    <ClInclude Include="Assets\GameObject\GameObjectFactory.h" />
+    <ClInclude Include="Assets\GameObject\ScoreItem\ScoreItem.h" />
+    <ClInclude Include="Assets\VirtualPad\ViritualPAd.h" />
+    <ClInclude Include="Assets\PopupLabel\PopupLabel.h" />
+    <ClInclude Include="Assets\Scene\ResultScene\ResultScene.h" />
+    <ClInclude Include="Assets\CollisionSystem\CSBody\CSBody.h" />
+    <ClInclude Include="Assets\CollisionSystem\CSHitCallback\CSHitCallback.h" />
+    <ClInclude Include="Assets\CollisionSystem\CSShape\CSCircle\CSCircle.h" />
+    <ClInclude Include="Assets\CollisionSystem\CSShape\CSPolygon\CSPolygon.h" />
+    <ClInclude Include="Assets\CollisionSystem\CSShape\CollisionDetection.h" />
+    <ClInclude Include="Assets\CollisionSystem\CSShape\CSShape.h" />
+    <ClInclude Include="Assets\CollisionSystem\CSVec2\CSVec2.h" />
+    <ClInclude Include="Assets\CollisionSystem\CSWorld\CSWorld.h" />
+    <ClInclude Include="Assets\WorldManager\WorldManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
